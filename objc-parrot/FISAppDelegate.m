@@ -38,6 +38,20 @@
     squawk = [squawk stringByAppendingString:@"!"];
     NSLog(@"%@", squawk);
     
+    //CODE-ALONG II: "WIND IN YER SAILS!"
+    
+    NSString *wind = @"Wind";
+    NSString *inString = @"in";
+    NSString *yer = @"yer";
+    NSString *sails = @"sails";
+    
+    NSLog(@"%@ %@ %@ %@!", wind, inString, yer, sails);
+    
+    NSString *windInYerSails = [NSString stringWithFormat:@"%@ %@ %@ %@!", wind, inString, yer, sails];
+    NSLog(@"%@", windInYerSails);
+    
+    
+    
     return YES; // Don't alter this line.
 }
 
