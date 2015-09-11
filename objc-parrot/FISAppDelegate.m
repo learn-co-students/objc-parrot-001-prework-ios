@@ -24,6 +24,20 @@
      
      */
     
+    //A
+    NSLog(@"Squawk!");
+    NSLog(@"%@", @"Squawk!");
+    NSLog(@"%@!", @"Squawk");
+    NSLog(@"%@!", [@"Squawk" uppercaseString]);
+    
+    //B
+    NSString *squawk = @"squawk";
+    NSLog(@"%@", squawk);
+    squawk = [squawk uppercaseString];
+    NSLog(@"%@", squawk);
+    squawk = [squawk stringByAppendingString:@"!"];
+    NSLog(@"%@", squawk);
+    
     return YES; // Don't alter this line.
 }
 
