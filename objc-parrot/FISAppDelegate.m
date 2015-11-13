@@ -14,6 +14,10 @@
      */
     
     // Do not alter
+    
+    NSLog(@"Squawk!");
+    
+    
     return YES;  //
 }   ///////////////
 
