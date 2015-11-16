@@ -7,11 +7,16 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    /**
-     
-     *  Write your code here!
-     
-     */
+    // Part I
+    // Section A
+    NSLog(@"Squawk!");
+    NSLog(@"%@", @"Squawk!");
+    NSLog(@"%@!", @"Squawk");
+    NSLog(@"%@!", [@"Squawk" uppercaseString]);
+    
+    // Section B
+    
+    
     
     // Do not alter
     return YES;  //
