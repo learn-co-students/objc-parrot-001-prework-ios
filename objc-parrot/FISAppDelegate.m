@@ -68,6 +68,14 @@
     NSLog(@"%@", imMolting);
     NSString *lookAtMeImMolting = [lookAtMe stringByAppendingFormat:@", %@!", imMolting];
     NSLog(@"%@", lookAtMeImMolting);
+    
+    NSString *iagoShout = [NSString stringWithFormat:@"%@ %@ %@, %@ %@!", look, at, me, im, molting];
+    NSLog(@"%@", iagoShout);
+    NSLog(@"%@", [iagoShout uppercaseString]);
+    iagoShout = [iagoShout uppercaseString];
+    NSLog(@"%@", iagoShout);
+    
+    
     // Do not alter
     return YES;  //
 }   ///////////////
