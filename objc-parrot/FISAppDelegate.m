@@ -18,6 +18,17 @@
     NSLog(@"%@!", @"Squawk");
     NSLog(@"%@!", [@"Squawk" uppercaseString]);
     
+    NSString *squawk = @"squawk";
+    NSLog(@"%@", squawk);
+    
+    squawk = [squawk uppercaseString];
+    NSLog(@"%@", squawk);
+    
+    squawk = [squawk stringByAppendingString:@"!"];
+    NSLog(@"%@", squawk);
+    
+    
+    
     // Do not alter
     return YES;  //
 }   ///////////////
