@@ -46,6 +46,15 @@
     windInYerSails = [windInYerSails stringByAppendingFormat:@" %@!", sails];
     NSLog(@"%@", windInYerSails);
     
+    NSString *look = @"look";
+    NSString *at = @"at";
+    NSString *me = @"me";
+    NSString *im = @"i'm";
+    NSString *molting = @"molting";
+    NSLog(@"%@%@%@%@%@", look, at, me, im, molting);
+    NSLog(@"%@ %@ %@ %@ %@", look, at, me, im, molting);
+    NSLog(@"%@ %@ %@, %@ %@!", look, at, me, im, molting);
+    NSLog(@"%@ %@ %@, %@ %@!", [look uppercaseString], [at uppercaseString], [me uppercaseString], [im uppercaseString], [molting uppercaseString]);
     
     
     
