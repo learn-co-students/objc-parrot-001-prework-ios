@@ -13,6 +13,11 @@
      
      */
     
+    NSLog(@"Squawk!");
+    NSLog(@"%@", @"Squawk!");
+    NSLog(@"%@!", @"Squawk");
+    NSLog(@"%@!", [@"Squawk" uppercaseString]);
+    
     // Do not alter
     return YES;  //
 }   ///////////////
