@@ -36,7 +36,16 @@
     NSString *windInYerSails = [NSString stringWithFormat:@"%@ %@ %@ %@!", wind, inString, yer, sails];
     NSLog(@"%@", windInYerSails);
     
-    
+    NSLog(@"%@", wind);
+    windInYerSails = [NSString stringWithString:wind];
+    NSLog(@"%@", windInYerSails);
+    windInYerSails = [windInYerSails stringByAppendingString:@" "];
+    windInYerSails = [windInYerSails stringByAppendingString:inString];
+    NSLog(@"%@", windInYerSails);
+    windInYerSails = [windInYerSails stringByAppendingFormat:@" %@", yer];
+    NSLog(@"%@", windInYerSails);
+    windInYerSails = [windInYerSails stringByAppendingFormat:@" %@!", sails];
+    NSLog(@"%@", windInYerSails);
     
     // Do not alter
     return YES;  //
