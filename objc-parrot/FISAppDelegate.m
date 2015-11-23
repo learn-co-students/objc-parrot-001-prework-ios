@@ -27,6 +27,12 @@
     squawk = [squawk stringByAppendingString:@"!"];
     NSLog(@"%@", squawk);
     
+    NSString *wind = @"Wind";
+    NSString *inString = @"in";
+    NSString *yer = @"yer";
+    NSString *sails = @"sails";
+    NSLog(@"%@ %@ %@ %@!", wind, inString, yer, sails);
+    
     
     
     // Do not alter
