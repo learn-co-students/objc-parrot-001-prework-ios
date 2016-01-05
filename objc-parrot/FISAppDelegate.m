@@ -13,49 +13,46 @@
      
   
      */
-    NSLog(@"Squawk!");
-    
+    NSLog(@"Sqauwk!");
     NSLog(@"%@", @"Squawk!");
-    
-    NSLog(@"%@!", @"Squawk");
-    
+    NSLog(@"%@!",@"Squawk");
     NSLog(@"%@!", [@"Squawk" uppercaseString]);
     
-    NSString *squawk = @"squawk";
+    NSString *squawk = @"squawk!";
     NSLog(@"%@", squawk);
     
-    squawk = [squawk uppercaseString];
+    squawk = [ squawk uppercaseString];
+    NSLog(@"%@", squawk);
+    squawk = [ squawk stringByAppendingString: @"!"];
     NSLog(@"%@", squawk);
     
-    squawk = [squawk stringByAppendingString:@"!"];
-    NSLog(@"%@", squawk);
-    
-    NSString *wind = @"Wind";
+    NSString *wind = @"wind";
     NSString *inString = @"in";
     NSString *yer = @"yer";
     NSString *sails = @"sails";
     
-    NSLog(@"%@ %@ %@ %@!", wind, inString, yer, sails);
+    NSLog(@" %@ %@ %@ %@!", wind, inString, yer, sails);
     
-    NSString *windInYerSails = [NSString stringWithFormat:@"%@ %@ %@ %@!", wind, inString, yer, sails];
     
-    NSLog(@"%@", windInYerSails);
+    NSString *WindInYerSails = [ NSString stringWithFormat:@" %@ %@ %@ %@!", wind, inString, yer, sails];
+    NSLog(@"%@", WindInYerSails);
     
     NSLog(@"%@", wind);
     
-    windInYerSails = [NSString stringWithString:wind];
-    NSLog(@"%@", windInYerSails);
+    WindInYerSails = [ NSString stringWithString:wind];
+    NSLog(@"%@", WindInYerSails);
     
-    windInYerSails = [windInYerSails stringByAppendingString:@" "];
+    WindInYerSails = [ WindInYerSails stringByAppendingString:@" "];
+    NSLog(@"%@", WindInYerSails);
     
-    windInYerSails = [windInYerSails stringByAppendingString:inString];
-    NSLog(@"%@", windInYerSails);
+    WindInYerSails = [ WindInYerSails stringByAppendingString:inString];
+    NSLog(@"%@", WindInYerSails);
     
-    windInYerSails = [windInYerSails stringByAppendingFormat:@" %@", yer];
-    NSLog(@"%@", windInYerSails);
+    WindInYerSails = [ WindInYerSails stringByAppendingFormat: @" %@", yer];
+    NSLog(@"%@", WindInYerSails);
     
-    windInYerSails = [windInYerSails stringByAppendingFormat:@" %@!", sails];
-    NSLog(@"%@", windInYerSails);
+    WindInYerSails = [ WindInYerSails stringByAppendingFormat:@" %@!", sails];
+    NSLog(@"%@", WindInYerSails);
     
     NSString *look = @"look";
     NSString *at = @"at";
@@ -63,39 +60,36 @@
     NSString *im = @"i'm";
     NSString *molting = @"molting";
     
-    NSLog(@"%@%@%@%@%@", look, at, me, im, molting);
- 
-    NSLog(@"%@ %@ %@ %@ %@", look, at, me, im, molting);
-    
-    NSLog(@"%@ %@ %@, %@ %@!", look, at, me, im, molting);
-    
-    NSLog(@"%@ %@ %@, %@ %@!", [look uppercaseString], [at uppercaseString], [me uppercaseString], [im uppercaseString], [molting uppercaseString]);
+    NSLog(@" %@%@%@%@%@", look, at, me, im, molting);
+    NSLog(@" %@ %@ %@ %@ %@", look, at, me, im, molting);
+    NSLog(@" %@ %@ %@ %@ %@!", look, at, me, im, molting);
+    NSLog(@" %@ %@ %@ %@ %@!", [look uppercaseString], [at uppercaseString],[me uppercaseString], [im uppercaseString], [molting uppercaseString]);
     
     NSString *lookAt = [look stringByAppendingFormat:@" %@", at];
     NSLog(@"%@", lookAt);
     
-    NSString *lookAtMe = [lookAt stringByAppendingFormat:@" %@", me];
+    NSString *lookAtMe = [ lookAt stringByAppendingFormat:@" %@" ,me];
     NSLog(@"%@", lookAtMe);
     
-    lookAtMe = [lookAtMe uppercaseString];
-    NSLog(@"%@", lookAtMe);
+    lookAtMe = [ lookAtMe uppercaseString];
+    NSLog(@" %@", lookAtMe);
     
-    NSString *imMolting = [NSString stringWithFormat:@"%@ %@", im, molting];
-    NSLog(@"%@", imMolting);
+    NSString *imMoltng = [ NSString stringWithFormat:@" %@ %@", im, molting];
+    NSLog(@"%@", imMoltng);
     
-    imMolting = [imMolting uppercaseString];
-    NSLog(@"%@", imMolting);
+    imMoltng = [ imMoltng uppercaseString];
+    NSLog(@"%@", imMoltng);
     
-    NSString *lookAtMeImMolting = [lookAtMe stringByAppendingFormat:@", %@!", imMolting];
+    NSString *lookAtMeImMolting = [ lookAtMe stringByAppendingFormat:@", %@!", imMoltng];
     NSLog(@"%@", lookAtMeImMolting);
     
-    NSString *iagoShout = [NSString stringWithFormat:@"%@ %@ %@, %@ %@!", look, at, me, im, molting];
+    NSString *iagoShout = [ NSString stringWithFormat:@" %@ %@ %@, %@ %@!", look, at , me ,im, molting];
     NSLog(@"%@", iagoShout);
     
     NSLog(@"%@", [iagoShout uppercaseString]);
     
     iagoShout = [iagoShout uppercaseString];
-    NSLog(@"%@", iagoShout);
+    NSLog(@"%@", iagoShout); 
     
     
     // Do not alter
