@@ -63,7 +63,6 @@
     NSString *lookAtMeImMolting = [lookAtMe stringByAppendingFormat:@", %@!", imMolting];
     NSLog(@"%@", lookAtMeImMolting);
     
-    
     NSString *iagoShout = [NSString stringWithFormat:@"%@ %@ %@, %@ %@!", look, at, me, im, molting];
     NSLog(@"%@", iagoShout);
     NSLog(@"%@", [iagoShout uppercaseString]);
