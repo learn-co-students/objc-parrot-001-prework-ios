@@ -93,7 +93,8 @@
     iagoShout = [iagoShout uppercaseString];
     NSLog(@"%@", iagoShout);
     
-    
+    iagoShout = [iagoShout lowercaseString];
+    NSLog(@"%@", iagoShout);
     
     
     
