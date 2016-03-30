@@ -6,6 +6,24 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    NSLog(@"Squawk!");
+    NSLog(@"%@", @"Squawk!");
+    NSLog(@"%@!", [@"Squawk" uppercaseString]);
+    
+    NSString *squawk = @"squawk";
+    NSLog(@"%@", squawk);
+    
+    squawk = [squawk stringByAppendingString:@"!"];
+    NSLog(@"%@", squawk);
+    
+    NSString *wind = @"Wind";
+    NSString *inString = @"in";
+    NSString *yer = @"yer";
+    NSString *sails = @"sails";
+    
+    NSLog(@"%@ %@ %@ %@!", wind, inString, yer, sails);
+    
+    
     
     /**
      
