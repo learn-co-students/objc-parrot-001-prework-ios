@@ -4,6 +4,15 @@
 
 @implementation FISAppDelegate
 
+// Objectives:
+// 1. Create variables.
+// 2. Use NSLog() to print a formatted string to the console.
+// 3. Change the case of a string with the uppercaseString method.
+// 4. Copy a string with the stringWithString: method.
+// 5. Concatenate strings with the stringByAppendingString: method.
+// 6. Concatenate an interpolated string with the stringByAppendingFormat: method.
+// 7. Create a new interpolated string with the stringWithFormat: method.
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
