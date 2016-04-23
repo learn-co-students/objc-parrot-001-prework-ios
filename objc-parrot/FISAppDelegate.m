@@ -4,6 +4,15 @@
 
 @implementation FISAppDelegate
 
+// Objectives:
+// 1. Create variables.
+// 2. Use NSLog() to print a formatted string to the console.
+// 3. Change the case of a string with the uppercaseString method.
+// 4. Copy a string with the stringWithString: method.
+// 5. Concatenate strings with the stringByAppendingString: method.
+// 6. Concatenate an interpolated string with the stringByAppendingFormat: method.
+// 7. Create a new interpolated string with the stringWithFormat: method.
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
@@ -12,6 +21,72 @@
      *  Write your code here!
      
      */
+    
+    NSLog(@"Squawk!");
+    
+    // This is an alternative to the code from the code-along
+    // NSString *squawk1 = @"Squawk!";
+    // NSLog(@"%@", squawk1);
+    NSLog(@"%@", @"Squawk!");
+    NSLog(@"%@!", @"Squawk");
+    NSLog(@"%@!", [@"Squawk" uppercaseString]);
+    
+    NSString *squawk = @"squawk"; //  we can also do: NSString *squawk = [@"squawk" uppercaseString];
+    NSLog(@"%@", squawk);
+    squawk = [squawk uppercaseString];
+    NSLog(@"%@", squawk);
+    squawk = [squawk stringByAppendingString:@"!"];
+    NSLog(@"%@", squawk);
+    
+    NSString *wind = @"Wind";
+    NSString *inString = @"in";
+    NSString *yer = @"yer";
+    NSString *sails = @"sails";
+    NSLog(@"%@ %@ %@ %@!", wind, inString, yer, sails);
+    
+    NSString *windInYerSails = [NSString stringWithFormat:@"%@ %@ %@ %@!", wind, inString, yer, sails];
+    NSLog(@"%@", windInYerSails);
+    
+    NSLog(@"%@", wind);
+    windInYerSails = [NSString stringWithString:wind];
+    NSLog(@"%@", windInYerSails);
+    windInYerSails = [windInYerSails stringByAppendingString:(@" ")];
+    NSLog(@"%@", windInYerSails);
+    windInYerSails = [windInYerSails stringByAppendingString:inString];
+    NSLog(@"%@", windInYerSails);
+    windInYerSails = [windInYerSails stringByAppendingFormat:@" %@", yer];
+    NSLog(@"%@", windInYerSails);
+    windInYerSails = [windInYerSails stringByAppendingFormat:@" %@!",sails];
+    NSLog(@"%@", windInYerSails);
+    
+    NSString *look = @"look";
+    NSString *at = @"at";
+    NSString *me = @"me";
+    NSString *im = @"i'm";
+    NSString *molting = @"molting";
+    NSLog(@"%@%@%@%@%@", look, at, me, im, molting);
+    NSLog(@"%@ %@ %@ %@ %@", look, at, me, im, molting);
+    NSLog(@"%@ %@ %@, %@ %@!", look, at, me, im, molting);
+    NSLog(@"%@ %@ %@, %@ %@!", [look uppercaseString], [at uppercaseString], [me uppercaseString], [im uppercaseString], [molting uppercaseString]);
+    
+    NSString *lookAt = [look stringByAppendingFormat:@" %@", at];
+    NSLog(@"%@",lookAt);
+    NSString *lookAtMe = [lookAt stringByAppendingFormat:@" %@", me];
+    NSLog(@"%@",lookAtMe);
+    lookAtMe = [lookAtMe uppercaseString];
+    NSLog(@"%@", lookAtMe);
+    NSString *imMolting = [NSString stringWithFormat:@"%@ %@", im, molting];
+    NSLog(@"%@", imMolting);
+    imMolting = [imMolting uppercaseString];
+    NSLog(@"%@", imMolting);
+    NSString *lookAtMeImMolting = [lookAtMe stringByAppendingFormat:@", %@!", imMolting];
+    NSLog(@"%@", lookAtMeImMolting);
+    
+    NSString *iagoShout = [NSString stringWithFormat:@"%@ %@ %@, %@ %@!", look, at, me, im, molting];
+    NSLog(@"%@", iagoShout);
+    NSLog(@"%@", [iagoShout uppercaseString]);
+    iagoShout = [iagoShout uppercaseString];
+    NSLog(@"%@", iagoShout);
     
     // Do not alter
     return YES;  //
