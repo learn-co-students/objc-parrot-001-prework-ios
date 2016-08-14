@@ -50,6 +50,25 @@
     
     
     
+//    Wind in yer sails Part C
+    
+    NSLog(@"%@", wind);
+    
+    windinYerSails = [NSString stringWithString: wind];
+    NSLog(@"%@", windinYerSails);
+    
+    windinYerSails = [windinYerSails stringByAppendingString:@" "];
+    NSLog(@"%@", windinYerSails);
+    
+    windinYerSails = [windinYerSails stringByAppendingString:inString];
+    NSLog(@"%@", windinYerSails);
+    
+    windinYerSails = [windinYerSails stringByAppendingFormat:@" %@", yer];
+    NSLog(@"%@", windinYerSails);
+    
+    windinYerSails = [windinYerSails stringByAppendingFormat:@" %@!", sails];
+    NSLog(@"%@", windinYerSails);
+    
     
 
     
