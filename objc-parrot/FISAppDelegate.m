@@ -7,6 +7,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
+//    Squawk Part A
+    
     NSLog(@"Squawk!");
     
     NSLog(@"%@", @"Squawk!");
@@ -17,6 +19,7 @@
     
     
     
+//    Squawk Part B
     
     NSString *squawk = @"squawk";
     NSLog(@"%@", squawk);
@@ -25,7 +28,30 @@
     NSLog(@"%@", squawk);
     
     squawk = [squawk stringByAppendingString:@"!"];
-    NSLog(@"%@", squawk); 
+    NSLog(@"%@", squawk);
+    
+    
+    
+//    Wind in yer sails Part A
+    
+    NSString *wind = @"Wind";
+    NSString *inString = @"in";
+    NSString *yer = @"yer";
+    NSString *sails = @"sails";
+    NSLog(@"%@ %@ %@ %@!", wind, inString, yer, sails);
+    
+    
+    
+    
+//    Wind in yer sails Part B
+    
+    NSString *windinYerSails = [NSString stringWithFormat:@"%@ %@ %@ %@!", wind, inString, yer, sails];
+    NSLog(@"%@", windinYerSails);
+    
+    
+    
+    
+
     
     // Do not alter
     return YES;  //
