@@ -70,7 +70,24 @@
     NSLog(@"%@", windinYerSails);
     
     
-
+//    Look At Me I'm Molting Part A
+    
+    NSString *look = @"look";
+    NSString *at = @"at";
+    NSString *me = @"me";
+    NSString *im = @"i'm";
+    NSString *molting = @"molting";
+    NSLog(@"%@%@%@%@%@", look, at, me, im, molting);
+    
+    NSLog(@"%@ %@ %@ %@ %@", look, at, me, im, molting);
+    
+    NSLog(@"%@ %@ %@, %@ %@!", look, at, me, im, molting);
+    
+    NSLog(@"%@ %@, %@ %@ %@!", [look uppercaseString] , [at uppercaseString], [me uppercaseString], [im uppercaseString], [molting uppercaseString]);
+    
+//    Look At Me I'm Molting Part B
+    
+    
     
     // Do not alter
     return YES;  //
