@@ -107,6 +107,14 @@
     
 //    Look At Me I'm Molting Part C
     
+    NSString *iagoShout = [NSString stringWithFormat:@"%@ %@ %@, %@ %@!", look, at, me, im, molting];
+    NSLog(@"%@", iagoShout);
+    
+    NSLog(@"%@", [iagoShout uppercaseString]);
+    
+    iagoShout = [iagoShout uppercaseString];
+    NSLog(@"%@", iagoShout);
+    
     
     // Do not alter
     return YES;  //
