@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "7A7554AC95E5D7E22C6CEE1D31F38C9D21F5C15F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "79C12C7800DD2FF39672AB4061857076B4146941" : 0,
+    "7A7554AC95E5D7E22C6CEE1D31F38C9D21F5C15F" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "82D745C5-A90D-4A5A-AD43-4BF236C97C6F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "79C12C7800DD2FF39672AB4061857076B4146941" : "",
+    "7A7554AC95E5D7E22C6CEE1D31F38C9D21F5C15F" : "objc-parrot-001-prework-ios\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "objc-parrot",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "objc-parrot.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:joanagj\/Simons-Stamp-Collection.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "79C12C7800DD2FF39672AB4061857076B4146941"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:joanagj\/objc-parrot-001-prework-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7A7554AC95E5D7E22C6CEE1D31F38C9D21F5C15F"
+    }
+  ]
+}
